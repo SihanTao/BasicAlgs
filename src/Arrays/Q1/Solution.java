@@ -6,17 +6,17 @@ public class Solution {
             return 0;
         }
 
-        int front = 0;
-        int back = 1;
+        int slow = 0;
+        int fast = 1;
 
-        while (back < nums.length) {
-            while (back < nums.length && nums[front] == nums[back]){
-                back++;
-                if (back == nums.length)
-                    return front + 1;
+        while (fast < nums.length) {
+            while (fast < nums.length && nums[slow] == nums[fast]){
+                fast++;
+                if (fast == nums.length)
+                    return slow + 1;
             }
-            nums[++front] = nums[back++];
+            nums[++slow] = nums[fast++];
         }
-        return front + 1;
+        return slow + 1;
     }
 }
