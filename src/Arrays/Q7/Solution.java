@@ -1,4 +1,4 @@
-package Array.Q7;
+package Arrays.Q7;
 
 public class Solution {
   public int[] plusOne(int[] digits) {

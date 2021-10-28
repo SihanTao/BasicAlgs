@@ -1,4 +1,4 @@
-package Array.Q2;
+package Arrays.Q2;
 
 public class Solution {
   public int maxProfit(int[] prices) {

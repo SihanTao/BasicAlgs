@@ -1,4 +1,4 @@
-package Array.Q1;
+package Arrays.Q1;
 
 public class Solution {
   public int removeDuplicates(int[] nums) {

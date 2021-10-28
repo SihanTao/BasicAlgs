@@ -1,4 +1,4 @@
-package Array.Q4;
+package Arrays.Q4;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package Array.Q5;
+package Arrays.Q5;
 
 public class Solution {
   public int singleNumber(int[] nums) {
